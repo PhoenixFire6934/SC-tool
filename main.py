@@ -1,8 +1,8 @@
 import argparse
 import os
 
-from lib.decompress import get_data_d
-from lib.compress import  get_data_c
+from library.decompress import get_data_d
+from library.compress import  get_data_c
 
 parser = argparse.ArgumentParser(description='Decompress/compress game assets')
 parser.add_argument('-d', '-decompress' , type=str, nargs=1, help='decompress .sc or .csv files')
