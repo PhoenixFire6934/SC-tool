@@ -30,6 +30,9 @@
     Supported signatures: LZMA, SC
     - How do you know what signature to use? Well it's simple: when you compress .sc files use SC signature and when you compress .csv use LZMA signature.
 
+## To do
+- support for SCLZ signature
+- support for SIG signature
 
 ## Author
 
